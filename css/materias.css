@@ -1,0 +1,95 @@
+@import url(util.css);
+
+body {
+    padding-top: 0%;
+    font-family: 'Young Serif', serif;
+    background-color: #960000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: max-content;
+    color: #ffffff;
+    width: 100vw;
+    overflow-x: hidden;
+    text-align: center;
+    font-size: medium;
+}
+
+.total {
+    height: 100vh;
+}
+
+li {
+    text-decoration: underline;
+    padding: 10px 0;
+}
+.tittle{
+    padding-top: 2%;
+    font-family: 'Young Serif', serif;
+    min-height: 100vh;
+    max-height: max-content;
+    color: #ffffff;
+    width: 100vw;
+    overflow-x: hidden;
+    text-align: center;
+    font-size: xx-large;
+
+}
+  
+  p{
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: large;
+    text-align: left;
+  }
+  
+  .atividade1,
+      .atividade2,
+      .atividade3 {
+          clear: both;
+          margin-bottom: 20px;
+      }
+  
+      .apresentacao1,
+      .apresentacao2,
+      .apresentacao3,
+      .descricao1,
+      .descricao2,
+      .descricao3 {
+          float: left;
+          width: 45%;
+          margin-right: 500px; 
+          margin-left: 1%;
+          margin-bottom: 5%;
+      }
+  
+      .descricao1,
+      .descricao2,
+      .descricao3 {
+          margin-right: 2%;
+      }
+  
+      iframe {
+          display: block;
+          margin-bottom: 10px;
+      }
+  
+      img {
+          max-width: 75%;
+          height: auto;
+          display: block;
+      }
+  
+      /* Limpar floats */
+      .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+  
+  #a1,#a2,#a3{
+    color: #ffffff;
+    text-decoration: underline;
+    
+  }
+  
